@@ -119,7 +119,7 @@ app.get('/', (req, res) => {
 
     <div class="footer">
         Universidad Tecnológica del Perú<br>
-        Curso de Cloud Computing
+        Gestión de Data Center - Grupo1
     </div>
 
 </div>
