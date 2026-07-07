@@ -1,1 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Banco Digital del Banco de Crédito del Perú</title>
+
+<link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+🏦 Banco Digital - BCP
+
+</div>
+
+<nav>
+
+<a href="#">Inicio</a>
+
+<a href="#">Cuentas</a>
+
+<a href="#">Préstamos</a>
+
+<a href="#">Transferencias</a>
+
+<a href="#">Perfil</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>
+
+Bienvenido al Banco Digital del BCP
+
+</h1>
+
+<p>
+
+
+Esta plataforma demuestra cómo
+desplegar aplicaciones en un servicio
+PaaS como Render.
+
+</p>
+
+<button>
+
+Ingresar
+
+</button>
+
+</div>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+
+<h2>
+
+Saldo Disponible
+
+</h2>
+
+<h1>
+
+S/ 18,500.00
+
+</h1>
+
+</div>
+
+<div class="card">
+
+<h2>
+
+Cuenta de Ahorros
+
+</h2>
+
+<p>
+
+************4589
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>
+
+Tarjeta de Crédito
+
+</h2>
+
+<p>
+
+Línea Disponible
+
+S/ 25,000
+
+</p>
+
+</div>
+
+</section>
+
+<section class="prestamo">
+
+<h1>
+
+Préstamos
+
+</h1>
+
+<input
+type="number"
+id="monto"
+placeholder="Monto solicitado">
+
+<select id="plazo">
+
+<option value="12">
+
+12 meses
+
+</option>
+
+<option value="24">
+
+24 meses
+
+</option>
+
+<option value="36">
+
+36 meses
+
+</option>
+
+<option value="48">
+
+48 meses
+
+</option>
+
+<option value="60">
+
+60 meses
+
+</option>
+
+</select>
+
+<button onclick="calcularPrestamo()">
+
+Calcular
+
+</button>
+
+<h2 id="resultado">
+
+</h2>
+
+</section>
+
+<section class="movimientos">
+
+<h1>
+
+Últimos Movimientos
+
+</h1>
+
+<table>
+
+<tr>
+
+<th>Fecha</th>
+
+<th>Operación</th>
+
+<th>Monto</th>
+
+</tr>
+
+<tr>
+
+<td>01/07/2026</td>
+
+<td>Depósito</td>
+
+<td>S/ 2,500</td>
+
+</tr>
+
+<tr>
+
+<td>07/07/2026</td>
+
+<td>Pago de Servicios</td>
+
+<td>S/ -350</td>
+
+</tr>
+
+<tr>
+
+<td>07/07/2026</td>
+
+<td>Transferencia</td>
+
+<td>S/ -780</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+
+Banco Digital Demo
+
+<br>
+
+Aplicación desarrollada por Rogert Claudio
+
+</footer>
+
+<script src="/script.js"></script>
+
+</body>
+
+</html>
