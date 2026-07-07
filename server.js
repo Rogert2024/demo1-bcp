@@ -107,9 +107,6 @@ app.get('/', (req, res) => {
     <h2>Tecnologías utilizadas</h2>
 
     <ul>
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>HTML y CSS</li>
         <li>Render (PaaS)</li>
     </ul>
 
