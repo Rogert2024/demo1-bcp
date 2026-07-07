@@ -1,15 +1,18 @@
-const express = require('express');
+const express = require("express");
+const path = require("path");
+
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send(`
-        <h1>Demo de Préstamos - BCP</h1>
-        <p>GRUPO 1 - GESTIÓN DE DATA CENTER.</p>
-    `);
+// Archivos públicos
+app.use(express.static(path.join(__dirname, "public")));
+
+// Página principal
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor activo en el puerto ${PORT}`);
+    console.log(`Servidor iniciado en http://localhost:${PORT}`);
 });
