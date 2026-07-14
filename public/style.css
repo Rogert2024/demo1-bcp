@@ -37,17 +37,20 @@ body{
 
 header{
 
-    background:var(--azul-oscuro);
-    color:white;
+ background:var(--blanco);
 
     display:flex;
     justify-content:space-between;
     align-items:center;
 
-    padding:20px 60px;
+    padding:18px 60px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.12);
 
     position:sticky;
     top:0;
+
+        border-bottom:5px solid var(--naranja);
 }
 
 .logo{
@@ -70,7 +73,16 @@ header{
 }
 
 nav a{
-    color:white;
+    color:var(--azul-oscuro);
+
+    text-decoration:none;
+
+    margin-left:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
     text-decoration:none;
 
     margin-left:25px;
@@ -83,7 +95,7 @@ nav a{
 
 nav a:hover{
 
-    color:#FFD000;
+     color:var(--naranja);
 }
 
 /* ========================================= */
@@ -125,7 +137,7 @@ nav a:hover{
 
     background:var(--naranja);
 
-    color:var(--blanco);
+    color:white;
 
     border:none;
 
@@ -144,7 +156,7 @@ nav a:hover{
 }
 
 .hero button:hover{
-
+background:#d96d13;
     transform:scale(1.05);
 
 }
@@ -178,6 +190,7 @@ nav a:hover{
     box-shadow:0 5px 15px rgba(0,0,0,.15);
 
     transition:.3s;
+    border-top:6px solid var(--naranja);
 
 }
 
@@ -189,7 +202,7 @@ nav a:hover{
 
 .card h1{
 
-    color:#003B8E;
+      color:var(--azul-oscuro);
 
     margin-top:15px;
 
@@ -202,6 +215,7 @@ nav a:hover{
 }
 
 .card h3{
+color:var(--naranja);
 
     margin-bottom:10px;
 
