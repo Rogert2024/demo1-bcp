@@ -1,4 +1,20 @@
 /* ========================================= */
+/* COLORES DEL PROYECTO */
+/* ========================================= */
+
+:root{
+
+    --azul:#0056A6;
+    --azul-oscuro:#003B8E;
+    --naranja:#F58220;
+    --blanco:#FFFFFF;
+    --gris:#F5F7FA;
+
+}
+
+
+
+/* ========================================= */
 /* ESTILOS GENERALES */
 /* ========================================= */
 
@@ -21,7 +37,7 @@ body{
 
 header{
 
-    background:#003B8E;
+    background:var(--azul-oscuro);
     color:white;
 
     display:flex;
@@ -76,7 +92,7 @@ nav a:hover{
 
 .hero{
 
-    background:linear-gradient(135deg,#003B8E,#005FD1);
+    background:linear-gradient(135deg,var(--azul-oscuro),var(--azul));
 
     color:white;
 
@@ -107,9 +123,9 @@ nav a:hover{
 
     margin-top:35px;
 
-    background:#FFD000;
+    background:var(--naranja);
 
-    color:#003B8E;
+    color:var(--blanco);
 
     border:none;
 
@@ -394,7 +410,7 @@ footer{
 
     margin-top:60px;
 
-    background:#003B8E;
+    background:var(--azul-oscuro);
 
     color:white;
 
